@@ -1,2 +1,2 @@
-# bible-translation-lookup
-A simple bible translation lookup
+# node-template-2018
+Template for creating an npm package in 2018
