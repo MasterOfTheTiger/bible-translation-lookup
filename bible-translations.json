@@ -2,7 +2,9 @@
   {
     "abbr": "AMPC",
     "name": "Amplified Bible, Classic Edition",
-    "aliases": []
+    "gAbbr": "AMP",
+    "gName": "Amplified Bible",
+    "aliases": ["Amplified Bible Classic Edition"]
   },
   {
     "abbr": "ASV",
@@ -24,7 +26,7 @@
   {
     "abbr": "GW",
     "name": "God's Word Translation",
-    "aliases": []
+    "aliases": ["Gods Word Translation"]
   },
   {
     "abbr": "JUB2000",
@@ -72,6 +74,6 @@
   {
     "abbr": "YLT",
     "name": "Young's Literal Translation",
-    "aliases": []
+    "aliases": ["Youngs Literal Translation"]
   }
 ]

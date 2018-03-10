@@ -1,29 +1,36 @@
 const _ = require('lodash')
-const translations = require('../bible-translations')
+const lookup = require('./lookup')
+const pkg = require('../package')
 
 const getTranslation = q => {
 
-  let translation = _.find(translations, {abbr: q.toUpperCase()})
+  if (typeof q !== 'string') throw TypeError(`${pkg.name} expects a string`)
+
+  const translations = lookup.getTranslations()
+  q = q.toUpperCase()
+
+  let translation = _.find(translations, {abbr: q})
 
   if (!translation) {
     translation = _.find(translations, t => {
-      return t.name.toUpperCase() === q.toUpperCase()
+      return t.name.toUpperCase() === q
     })
   }
 
   if (!translation) {
-    translation = _.find(translations, {gAbbr: q.toUpperCase()})
+    translation = _.find(translations, {gAbbr: q})
   }
 
   if (!translation) {
     translation = _.find(translations, t => {
-      return t.gName.toUpperCase() === q.toUpperCase()
+      if (t.gName == null) return false
+      return t.gName.toUpperCase() === q
     })
   }
 
   if (!translation) {
     translation = _.find(translations, t => {
-      return _.map(t.aliases, _.upperCase).includes(q.toUpperCase())
+      return _.map(t.aliases, _.upperCase).includes(q)
     })
   }
 

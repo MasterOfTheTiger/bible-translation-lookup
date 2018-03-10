@@ -1,7 +1,7 @@
-const example = require('./js/example')
+const getTranslation = require('./js/get-translation')
 
-const main = () => {
-  return example()
+const main = q => {
+  return getTranslation(q)
 }
 
 module.exports = main
