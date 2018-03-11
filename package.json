@@ -12,7 +12,7 @@
     "build": "npm-run-all test enforcer",
     "browserify": "webpack --mode production && node browserify",
     "prepush": "npm run build",
-    "postpush": "npm run browserify"
+    "postupdate": "npm run browserify"
   },
   "dependencies": {
     "lodash": "^4.17.5"
