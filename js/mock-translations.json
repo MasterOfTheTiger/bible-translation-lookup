@@ -46,13 +46,13 @@
     "aliases": [
       "Authorised Version", "Authorised King James Version", "Authorised (King James) Version",
       "Authorized Version", "Authorized King James Version", "Authorized (King James) Version",
-      "King James Bible", "AKJV"
+      "King James Bible", "AV", "AKJV", "KJB"
     ]
   },
   {
     "abbr": "NASB",
     "name": "New American Standard Bible",
-    "aliases": []
+    "aliases": ["NAS"]
   },
   {
     "abbr": "NET",

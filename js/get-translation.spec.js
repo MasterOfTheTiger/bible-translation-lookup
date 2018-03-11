@@ -2,9 +2,9 @@ const chai = require('chai')
 const sinon = require('sinon')
 const expect = chai.expect
 
+const getTranslation = require('./get-translation')
 const lookup = require('./lookup')
 const mockTranslations = require('./mock-translations.json')
-const getTranslation = require('./get-translation')
 
 describe('getTranslation', () => {
 
