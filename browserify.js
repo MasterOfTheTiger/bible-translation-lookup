@@ -21,8 +21,11 @@ count += cmdObj.code
 cmdObj = exec('git commit -m "Updated ' + filename + '" ' + filename, {silent: true})
 count += cmdObj.code
 
+cmdObj = exec('git push', {silent: true})
+count += cmdObj.code
+
 if (count === 0) {
-  console.log(chalk.green(`Committed ${filename}`))
+  console.log(chalk.green(`Pushed ${filename}`))
 } else {
-  console.log(chalk.yellow(`Did not commit ${filename}`))
+  console.log(chalk.yellow(`Did not push ${filename}`))
 }

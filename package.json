@@ -9,9 +9,10 @@
   "scripts": {
     "test": "istanbul cover -x \"**/*.spec.js\" ./node_modules/mocha/bin/_mocha -- js",
     "enforcer": "istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100",
+    "build": "npm-run-all test enforcer",
     "browserify": "webpack --mode production && node browserify",
-    "build": "npm-run-all test enforcer browserify",
-    "prepush": "npm run build"
+    "prepush": "npm run build",
+    "postpush": "npm run browserify"
   },
   "dependencies": {
     "lodash": "^4.17.5"
