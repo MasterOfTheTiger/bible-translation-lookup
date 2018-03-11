@@ -7,3 +7,95 @@
 [![downloads](https://img.shields.io/npm/dm/bible-translation-lookup.svg)](https://www.npmjs.com/package/bible-translation-lookup)
 
 **A simple bible translation lookup**
+
+
+
+<br>
+
+## Introduction
+
+`bible-translation-lookup` gets a bible translation object from its name, abbreviation or alias
+
+It works both server side and client side
+
+
+
+<br>
+
+## Server side usage
+
+`npm install --save bible-translation-lookup`
+
+```javascript 1.7
+const btl = require('bible-translation-lookup')
+const translation1 = btl('KJV')
+const translation2 = btl('New English Translation')
+console.log(translation1.name) // King James Version
+console.log(translation2.abbr) // NET
+```
+
+
+
+<br>
+
+## Client side usage
+
+`npm install --save bible-translation-lookup`
+
+Add a script tag in head:
+
+```HTML
+<script src="node_modules/bible-translation-lookup"></script>
+```
+
+Then use as follows:
+
+```HTML
+<script>
+  const translation1 = bibleTranslationLookup('ASV')
+  const translation2 = bibleTranslationLookup('New King James Version')
+  console.log(translation1.name) // American Standard Version
+  console.log(translation2.abbr) // NKJV
+</script>
+```
+
+
+
+<br>
+
+## JSON structure
+
+JSON returned has the following structure:
+
+```json
+{
+  "abbr": "DARBY",
+  "name": "Darby Translation",
+  "aliases": ["Darby Bible", "Darby Bible Translation", "DBY"]
+}
+```
+
+
+
+<br>
+
+## Support translations
+
+We support the translations listed in [bible-translations.json](bible-translations.json "Jesus loves you")
+
+If you want support for another translation please raise an [issue](https://github.com/danday74/bible-translation-lookup/issues "Jesus loves you")
+
+
+
+<br>
+
+## Author says
+
+> but his delight is in the law of the Lord, and on his law he meditates day and night.
+> He is like a tree planted by streams of water that yields its fruit in its season, and its leaf does not wither. In all that he does, he prospers.
+
+[Psalm 1:2-3 ESV](https://www.biblegateway.com/passage/?search=psalm+1&version=ESV "Jesus loves you")
+
+
+
+<br><br><br>
