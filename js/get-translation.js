@@ -1,4 +1,4 @@
-const _ = require('lodash')
+const {find, map, upperCase} = require('lodash')
 const lookup = require('./lookup')
 const pkg = require('../package.json')
 
@@ -9,28 +9,28 @@ const getTranslation = q => {
   const translations = lookup.getTranslations()
   q = q.toUpperCase()
 
-  let translation = _.find(translations, {abbr: q})
+  let translation = find(translations, {abbr: q})
 
   if (!translation) {
-    translation = _.find(translations, t => {
+    translation = find(translations, t => {
       return t.name.toUpperCase() === q
     })
   }
 
   if (!translation) {
-    translation = _.find(translations, {gAbbr: q})
+    translation = find(translations, {gAbbr: q})
   }
 
   if (!translation) {
-    translation = _.find(translations, t => {
+    translation = find(translations, t => {
       if (t.gName == null) return false
       return t.gName.toUpperCase() === q
     })
   }
 
   if (!translation) {
-    translation = _.find(translations, t => {
-      return _.map(t.aliases, _.upperCase).includes(q)
+    translation = find(translations, t => {
+      return map(t.aliases, upperCase).includes(q)
     })
   }
 

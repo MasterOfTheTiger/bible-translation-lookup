@@ -1,4 +1,4 @@
-const translations = require('../bible-translations')
+const translations = require('../bible-translations.json')
 
 const lookup = {
   getTranslations: () => {

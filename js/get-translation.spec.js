@@ -3,7 +3,7 @@ const sinon = require('sinon')
 const expect = chai.expect
 
 const lookup = require('./lookup')
-const mockTranslations = require('./mock-translations')
+const mockTranslations = require('./mock-translations.json')
 const getTranslation = require('./get-translation')
 
 describe('getTranslation', () => {
