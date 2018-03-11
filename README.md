@@ -45,7 +45,7 @@ console.log(translation2.abbr) // NET
 Add a script tag in head:
 
 ```HTML
-<script src="node_modules/bible-translation-lookup"></script>
+<script src="node_modules/bible-translation-lookup/browser.js"></script>
 ```
 
 Then use as follows:
