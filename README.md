@@ -94,7 +94,7 @@ If you want support for another translation please raise an [issue](https://gith
 > but his delight is in the law of the Lord, and on his law he meditates day and night.
 > He is like a tree planted by streams of water that yields its fruit in its season, and its leaf does not wither. In all that he does, he prospers.
 
-[Psalm 1:2-3 ESV](https://www.biblegateway.com/passage/?search=psalm+1&version=ESV "Jesus loves you")
+[Psalm 1:2-3 ESV](https://www.bible.com/en-GB/bible/59/PSA.1.ESV "Jesus loves you")
 
 
 
