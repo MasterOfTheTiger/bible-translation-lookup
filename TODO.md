@@ -1,2 +1,1 @@
-Tidy code
 Write README
