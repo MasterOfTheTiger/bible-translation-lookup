@@ -1,6 +1,6 @@
-const pkg = require('./package.json')
 const {camelCase} = require('lodash')
-const library = camelCase(pkg.name)
+const {name} = require('./package.json')
+const library = camelCase(name)
 
 module.exports = {
   entry: './index.js',
