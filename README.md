@@ -14,9 +14,9 @@
 
 ## Introduction
 
-`bible-translation-lookup` gets a bible translation object from its name, abbreviation or alias
+`bible-translation-lookup` gets a bible translation JSON object from a bible translation name, abbreviation or alias.
 
-It works both server side and client side
+It works both server side and client side.
 
 
 
