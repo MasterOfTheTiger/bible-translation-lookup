@@ -11,10 +11,11 @@
     "enforcer": "istanbul check-coverage --statement 100 --branch 100 --function 100 --line 100",
     "build": "npm-run-all test enforcer",
     "browserify": "webpack --mode production && node browserify",
-    "postcommit": "FORCE_COLOR=true npm run browserify",
+    "postcommit": "cross-env FORCE_COLOR=true npm run browserify",
     "prepush": "npm run build"
   },
   "dependencies": {
+    "cross-env": "^5.1.4",
     "lodash": "^4.17.5"
   },
   "devDependencies": {
