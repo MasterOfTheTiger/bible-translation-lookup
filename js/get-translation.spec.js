@@ -55,7 +55,7 @@ describe('getTranslation', () => {
     })
 
     it('invalid input', () => {
-      expect(() => getTranslation({})).to.throw(TypeError)
+      expect(() => getTranslation({})).to.throw(TypeError, 'bible-translation-lookup expects a string')
     })
   })
 })
