@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>bible-translation-lookup</title>
+  <script src="browser.js"></script>
+</head>
+<body>
+<div id="input">KJV</div>
+<div id="output"></div>
+<script>
+  const text = document.getElementById('input').innerText
+  const el = document.getElementById('output')
+  el.innerText = bibleTranslationLookup(text).name
+</script>
+</body>
+</html>

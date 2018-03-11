@@ -1,6 +1,6 @@
 const _ = require('lodash')
 const lookup = require('./lookup')
-const pkg = require('../package')
+const pkg = require('../package.json')
 
 const getTranslation = q => {
 
