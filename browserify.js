@@ -8,9 +8,11 @@ let count = 0
 
 cmdObj = exec(`git add ${filename}`, {silent: true})
 count += cmdObj.code
-cmdObj = exec(`git commit -m "updated browser file" ${filename}`, {silent: true})
+cmdObj = exec(`git commit -m "Updated ${filename}" ${filename}`, {silent: true})
 count += cmdObj.code
 
 if (count === 0) {
   console.log(`Committed ${filename}`)
+} else {
+  console.log(`Did not commit ${filename}`)
 }
