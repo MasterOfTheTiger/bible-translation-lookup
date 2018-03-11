@@ -79,7 +79,7 @@ JSON returned has the following structure:
 
 <br>
 
-## Support translations
+## Supported translations
 
 We support the translations listed in [bible-translations.json](bible-translations.json "Jesus loves you")
 
