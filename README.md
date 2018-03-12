@@ -22,7 +22,7 @@ It works both server side and client side.
 
 <br>
 
-## Server side usage
+## Usage
 
 `npm install --save bible-translation-lookup`
 
@@ -38,7 +38,7 @@ console.log(translation2.abbr) // NET
 
 <br>
 
-## Client side usage
+## Browser usage
 
 `npm install --save bible-translation-lookup`
 
@@ -65,7 +65,7 @@ Then use as follows:
 
 ## JSON structure
 
-JSON returned has the following structure:
+A bible translation JSON object has the following structure:
 
 ```json
 {
@@ -83,6 +83,8 @@ JSON returned has the following structure:
 
 We support the translations listed in [bible-translations.json](bible-translations.json "Jesus loves you")
 
+This is not an exhaustive list.
+
 If you want support for another translation please raise an [issue](https://github.com/danday74/bible-translation-lookup/issues "Jesus loves you")
 
 
@@ -90,6 +92,8 @@ If you want support for another translation please raise an [issue](https://gith
 <br>
 
 ## Author says
+
+God was kind to reveal his character to us in Jesus and in the bible. Let's read it.
 
 > but his delight is in the law of the Lord, and on his law he meditates day and night.
 > He is like a tree planted by streams of water that yields its fruit in its season, and its leaf does not wither. In all that he does, he prospers.
