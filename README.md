@@ -83,7 +83,7 @@ If a translation cannot be found then `undefined` is returned.
 
 ## Supported translations
 
-We support the translations listed in [bible-translations.json](bible-translations.json "Jesus loves you")
+`bible-translation-lookup` supports the translations listed in [bible-translations.json](bible-translations.json "Jesus loves you")
 
 This is not an exhaustive list.
 
