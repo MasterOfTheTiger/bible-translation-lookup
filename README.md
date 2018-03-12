@@ -65,7 +65,7 @@ Then use as follows:
 
 ## JSON structure
 
-A bible translation JSON object has the following structure:
+`bible-translation-lookup` returns a JSON object with the following structure:
 
 ```json
 {
@@ -74,6 +74,8 @@ A bible translation JSON object has the following structure:
   "aliases": ["Darby Bible", "Darby Bible Translation", "DBY"]
 }
 ```
+
+If a translation cannot be found then `undefined` is returned.
 
 
 
