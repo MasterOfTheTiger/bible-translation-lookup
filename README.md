@@ -16,7 +16,7 @@
 
 `bible-translation-lookup` gets a [bible translation JSON object](#json-structure "Jesus loves you") when given a bible translation name, abbreviation or alias.
 
-It works both server side and client side.
+It works in Node code and browsers.
 
 
 
