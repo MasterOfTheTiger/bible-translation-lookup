@@ -45,6 +45,11 @@
     ]
   },
   {
+    "abbr": "LEB",
+    "name": "Lexham English Bible",
+    "aliases": []
+  },
+  {
     "abbr": "NASB",
     "name": "New American Standard Bible",
     "aliases": ["NAS"]
@@ -69,6 +74,11 @@
   {
     "abbr": "WEB",
     "name": "World English Bible",
+    "aliases": []
+  },
+  {
+    "abbr": "WMB",
+    "name": "World Messianic Bible",
     "aliases": []
   },
   {
