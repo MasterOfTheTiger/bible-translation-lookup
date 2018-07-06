@@ -1,5 +1,10 @@
 [
   {
+    "abbr": "ACV",
+    "name": "A Conservative Version",
+    "aliases": []
+  },
+  {
     "abbr": "AMPC",
     "name": "Amplified Bible, Classic Edition",
     "gAbbr": "AMP",
@@ -17,6 +22,11 @@
     "aliases": ["Darby Bible", "Darby Bible Translation", "DBY"]
   },
   {
+    "abbr": "RHE",
+    "name": "Douay-Rheims Bible",
+    "aliases": ["Douay Rheims Bible", "Douay Rheims", "Douay-Rheims Catholic Bible", "DRBO", "DOUR"]
+  },
+  {
     "abbr": "ESV2011",
     "name": "English Standard Version 2011",
     "gAbbr": "ESV",
@@ -24,9 +34,24 @@
     "aliases": []
   },
   {
+    "abbr": "GNT",
+    "name": "Good News Translation",
+    "aliases": []
+  },
+  {
     "abbr": "GW",
     "name": "God's Word Translation",
     "aliases": ["Gods Word Translation"]
+  },
+  {
+    "abbr": "HNV",
+    "name": "Hebrew Names Version",
+    "aliases": ["Hebrew Names"]
+  },
+  {
+    "abbr": "HCSB",
+    "name": "Holman Christian Study Bible",
+    "aliases": ["CSB", "HCS", "Holman"]
   },
   {
     "abbr": "JUB2000",
@@ -45,9 +70,20 @@
     ]
   },
   {
+    "abbr": "KJ2000",
+    "name": "King James 2000",
+    "aliases": []
+  },
+  {
     "abbr": "LEB",
     "name": "Lexham English Bible",
     "aliases": []
+  },
+  {
+    "abbr": "MSG",
+    "name": "The Message Bible",
+    "gName": "Message",
+    "aliases": ["The Message"]
   },
   {
     "abbr": "NASB",
@@ -55,9 +91,19 @@
     "aliases": ["NAS"]
   },
   {
+    "abbr": "NCV",
+    "name": "New Century Version",
+    "aliases":[]
+  },
+  {
     "abbr": "NET",
     "name": "New English Translation",
     "aliases": ["NET Bible"]
+  },
+  {
+    "abbr": "NHEB",
+    "name": "New Heart English Bible",
+    "aliases": []
   },
   {
     "abbr": "NIV1984",
@@ -72,6 +118,16 @@
     "aliases": []
   },
   {
+    "abbr": "NRSV",
+    "name": "New Revised Standard",
+    "aliases": []
+  },
+  {
+    "abbr": "RSV",
+    "name": "Revised Standard Version",
+    "aliases": []
+  },
+  {
     "abbr": "WEB",
     "name": "World English Bible",
     "aliases": []
@@ -80,6 +136,16 @@
     "abbr": "WMB",
     "name": "World Messianic Bible",
     "aliases": []
+  },
+  {
+    "abbr": "WYC",
+    "name": "Wycliffe",
+    "aliases": []
+  },
+  {
+    "abbr": "WBT",
+    "name": "The Webster Bible",
+    "aliases": ["Webster"]
   },
   {
     "abbr": "YLT",
